@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks](https://project-dashboard-llindsiepe.vercel.app/))
+- [Acesse o projeto finalizado, online](https://project-dashboard-llindsiepe.vercel.app/)
 
 ## 🔖 Layout
 
