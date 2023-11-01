@@ -1,5 +1,4 @@
 // icons svg images
-import alert from "../assets/icons/alert.svg";
 import bell from "../assets/icons/bell.svg";
 import bills from "../assets/icons/bills.svg";
 import budget from "../assets/icons/budget.svg";
@@ -16,6 +15,10 @@ import search from "../assets/icons/search.svg";
 import user from "../assets/icons/user.svg";
 import wallet from "../assets/icons/wallet.svg";
 import wealth from "../assets/icons/wealth.svg";
+import folder from "../assets/icons/folder-open.svg";
+import logout from "../assets/icons/logout.svg";
+import lamp from "../assets/icons/lamp.svg";
+import icon from "../assets/icons/icon.svg";
 
 // person images
 import person_one from "../assets/images/person_one.jpg";
@@ -24,10 +27,31 @@ import person_three from "../assets/images/person_three.jpg";
 import person_four from "../assets/images/person_four.jpg";
 
 export const iconsImgs = {
-    alert, bell, bills, budget, card, check, empty_check, gears, home, menu, plane, plus, report, search, user, wallet, wealth
-}
-
-export const personsImgs = {
-    person_one, person_two, person_three, person_four
+  lamp,
+  bell,
+  bills,
+  budget,
+  card,
+  check,
+  empty_check,
+  gears,
+  home,
+  menu,
+  plane,
+  plus,
+  report,
+  search,
+  user,
+  wallet,
+  wealth,
+  folder,
+  logout,
+  icon,
 };
 
+export const personsImgs = {
+  person_one,
+  person_two,
+  person_three,
+  person_four,
+};

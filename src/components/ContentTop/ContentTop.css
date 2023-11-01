@@ -18,7 +18,7 @@
 .content-top-title {
   color: var(--clr-white);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .content-top-btn {
@@ -36,4 +36,5 @@
 .content-top-left {
   display: flex;
   align-items: center;
+  gap: 20px;
 }

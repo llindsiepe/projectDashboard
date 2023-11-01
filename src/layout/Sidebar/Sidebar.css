@@ -7,18 +7,29 @@
 
 .user-info {
   display: block;
-  justify-content: flex-start;
   align-items: center;
-  column-gap: 16px;
+}
+
+.name-description {
+  display: block;
+  align-items: center;
+  margin-top: 16px;
+  color: white;
+}
+
+.intro-name {
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .info-name {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .info-img {
-  width: 48px;
-  height: 48px;
+  width: 80px;
+  height: 80px;
   overflow: hidden;
   border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -27,27 +38,11 @@
 .info-name {
   font-size: 20px;
   color: var(--clr-white);
-  text-transform: uppercase;
 }
 
 .navigation {
   margin-top: 20px;
   height: 600px;
-  overflow-y: scroll;
-
-  &::-webkit-scrollbar {
-    width: 4px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: var(--clr-pumpkin);
-    border-radius: 18px;
-  }
-
-  &::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 18px;
-  }
 }
 
 .sidebar-change {
@@ -76,15 +71,15 @@
   border: 1px solid var(--clr-primary-light);
 }
 
-.nav-link.active {
-  background-color: var(--clr-pumpkin);
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
+.nav-link-new {
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .nav-link-icon {
-  width: 22px;
+  width: 18px;
 }
 
 .nav-link-text {
