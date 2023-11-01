@@ -1,7 +1,3 @@
-<h1 align="center"> Projeto Dashboard </h1>
-
-<br>
-
 <p align="center">
   <img alt="Projeto Dashboard" src="./src/assets/preview.png" width="100%">
 </p>
